@@ -39,7 +39,7 @@ export default class InputTask extends Component {
     var year = new Date().getFullYear();
     this.setState({
       taskDate: year + "-" + month + "-" + date,
-      current: year + "-" + month + "-" + date
+      current: year + "-" + month + "-" + date,
     });
   }
 
